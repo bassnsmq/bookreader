@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:bookreader/reader/read.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -8,10 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '书旗小说',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: null,
+      home: new ReadPage(),
     );
   }
 }
