@@ -1,3 +1,5 @@
+import 'package:bookreader/pages/bookshelf/bookshelf_scene.dart';
+import 'package:bookreader/pages/index/IndexPage.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -11,8 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: null,
+      home: BookshelfScene(),
     );
   }
 }
-
