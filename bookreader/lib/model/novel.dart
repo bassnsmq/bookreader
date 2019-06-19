@@ -42,4 +42,7 @@
   //是否为限时免费
   bool isLimitedFree;
 
+  //路径
+  String path;
+
  }

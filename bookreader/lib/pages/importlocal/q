@@ -1,0 +1,4 @@
+Future<void> getSDCardDir() async {
+    sDCardDir = (await getExternalStorageDirectory()).path;
+  }
+  
